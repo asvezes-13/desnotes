@@ -1,6 +1,8 @@
 # OSQuery CVE Validation & Infrastructure Mapping
 ## Security Reference Guide — Windows & Linux
 
+A collection of essential Linux and Windows commands for comprehensive system searching and version verification using OSquery.
+
 ---
 
 ## Getting Started — OSQuery Interactive Shell
