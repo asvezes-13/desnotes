@@ -135,12 +135,8 @@ WHERE name LIKE '%openssl%'
    OR name LIKE '%apache%';
 ```
 
-### Windows — Additional packages via chocolatey / npm globals
+### Windows — Additional packages via npm globals
 ```sql
--- Chocolatey packages
-SELECT name, version, path
-FROM chocolatey_packages;
-
 -- npm globally installed packages
 SELECT name, version, path
 FROM npm_packages
